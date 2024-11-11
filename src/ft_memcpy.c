@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_stlen.c                                         :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/11 14:21:46 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 17:48:39 by yevkahar         ###   ########.fr       */
+/*   Created: 2024/11/11 17:59:34 by yevkahar          #+#    #+#             */
+/*   Updated: 2024/11/11 18:21:30 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_strlen(char *str)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
+	size_t	i;
+	if(dest == NULL & src == NULL)
+		return (0);
+	i = -1;
+	while(++i < n)
 	{
-		i++;
+		((char *)dest)[i] = ((char *)src)[i];
 	}
-	return (i);
+	return (dest);
 }

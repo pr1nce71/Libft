@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_stlen.c                                         :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/11 14:21:46 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 17:48:39 by yevkahar         ###   ########.fr       */
+/*   Created: 2024/11/11 17:55:04 by yevkahar          #+#    #+#             */
+/*   Updated: 2024/11/11 17:59:26 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_strlen(char *str)
+void	ft_bzero(void *s, size_t n)
 {
-	int	i;
+	unsigned char	*str;
 
-	i = 0;
-	while (str[i] != '\0')
+	str = s;
+	while (n > 0)
 	{
-		i++;
+		*str = 0;
+		*str++;
+		n--;
 	}
-	return (i);
 }
