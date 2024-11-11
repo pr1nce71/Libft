@@ -6,18 +6,31 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:18:53 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 17:36:47 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/11 18:50:21 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Libft.h"
+#include <unistd.h>
 
 int	ft_atoi(const char *str)
 {
-	int	sign;
 	int	result;
+	int	sign;
 
-	sign = 0;
 	result = 0;
-	while ()
+	sign = 1;
+	while ((*str == 32) || (*str >= 9 && *str <= 13))
+	{
+		str++;
+	}
+	if (*str == '-')
+		sign *= -1;
+	else if (*str == '+')
+		str++;
+	while (*str >= 48 && *str <= 57)
+	{
+		result = result * 10 + (*str - '0')
+		str++;
+	}
+	return (result * sign);
 }
