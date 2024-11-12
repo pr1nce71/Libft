@@ -6,11 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:30:51 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 16:32:38 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/12 17:14:20 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_isascii(int c)
 {

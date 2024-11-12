@@ -6,11 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:21:54 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 17:35:50 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/12 17:14:23 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_isdigit(int str)
 {

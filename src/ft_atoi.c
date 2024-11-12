@@ -6,11 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:18:53 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/11 19:20:14 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/12 17:13:13 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {
