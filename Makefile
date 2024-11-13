@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/13 16:40:12 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/13 18:25:52 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,8 @@ SRCS	=	ft_isalnum.c \
 			ft_memset.c \
 			ft_bzero.c \
 			ft_strlen.c \
-			ft_strlcat.c
+			ft_strlcat.c \
+			ft_memmove.c
 			
 OBJS	= $(SRCS:.c=.o)
 
