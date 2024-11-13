@@ -6,8 +6,14 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:35:08 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/12 17:15:23 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/13 16:13:15 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+void	*ft_memmove(void *dest, const void *src, size_t n)
+{
+	
+	return (dest);
+}
