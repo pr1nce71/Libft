@@ -6,19 +6,19 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:15:54 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/12 17:14:16 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/13 14:18:20 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(char str)
+int	ft_isalpha(int c)
 {
-	if (str >= 'a' && str <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else if (str >= 'A' && str <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}

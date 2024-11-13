@@ -6,15 +6,15 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:25:24 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/12 17:14:28 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/13 14:18:05 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint(char str)
+int	ft_isprint(int c)
 {
-	if (str >= 32 && str <= 127)
+	if (c >= 32 && c <= 127)
 		return (1);
 	else
 		return (0);
