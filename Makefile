@@ -6,37 +6,71 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/13 14:13:24 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/13 15:39:24 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME	=   libft.a
+SRCS	=	ft_isalnum.c \
+			ft_isalpha.c \
+			ft_isascii.c \
+			ft_isdigit.c \
+			ft_isprint.c \
+			ft_atoi.c \
+			ft_memcpy.c \
+			ft_memset.c \
+			ft_bzero.c \
+			ft_strlen.c
+			
+OBJS	= $(SRCS:.c=.o)
+
+RM		= rm -f
+LIBC	= ar -rcs
+FLAGS	= -Wall -Wextra -Werror
+INCS	= .
+
+.c.o :
+	$(CC) $(FLAGS) -c $< -o $(<:.c=.o) -I$(INCS)
+
+$(NAME): $(OBJS)
+	$(LIBC) $(NAME) $(OBJS) 
+
+all: $(NAME)
+
+fclean: clean
+	$(RM) $(NAME) $(bonus)
+
+clean:
+	$(RM) -f $(OBJS)
+
+re: fclean all
+
 
 # TARGET = libft
 
-CC = gcc
-FLAGS = -Wall -Wextra -Werror
+# SRCS_DIR = src
+# OBJ_DIR = obj
+# INC_DIR = inc
 
-PREF_SRCS = ./src/
-PREF_OBJ = ./obj/
-PREF_INC = ./libft/
+# SCRS = $(wildcard $(SRCS_DIR)*.c)
+# OBJ = $(patsubst $(SRCS_DIR)%.c, $(OBJ_DIR)%.o, $(SCRS))
 
-SCRS = $(wildcard $(PREF_SRCS)*.c)
-OBJ = $(patsubst $(PREF_SRCS)%.c, $(PREF_OBJ)%.o, $(SCRS))
 
-$(NAME) : $(OBJ)
-	ar rcs $(NAME) $(OBJ)
+# $(OBJ_DIR)%.o : $(SRCS_DIR)%.c
+# 	$(CC) $(FLAGS) -I $(INC_DIR) -c $< -o $@
 
-$(TARGET) : $(OBJ)
-	$(CC) $(OBJ) -o $(TARGET)
+# $(NAME) : $(OBJ)
+# 	ar rcs $(NAME) $(OBJ)
 
-$(PREF_OBJ)%.o : $(PREF_SRCS)%.c
-	$(CC) $(FLAGS) -I $(PREF_INC) -c $< -o $@
-
-clean :
-	rm $(TARGET) $(PREF_OBJ)*.o
+# clean :
+# 	rm $(OBJ_DIR)*.o
 	
-fclean : clean
-	rm -f $(NAME)
+# fclean : clean
+# 	rm -f $(NAME)
 	
-re : fclean $(NAME)
+# re : fclean $(NAME)
+
+# .PHONY: all bonus clean fclean re .c.o
+
+# $(TARGET) : $(OBJ)
+# 	$(CC) $(OBJ) -o $(TARGET)

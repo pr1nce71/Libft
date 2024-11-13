@@ -1,25 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/11 17:34:38 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/12 17:14:37 by yevkahar         ###   ########.fr       */
+/*   Created: 2024/11/13 15:39:55 by yevkahar          #+#    #+#             */
+/*   Updated: 2024/11/13 15:39:57 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-void	*ft_memset(void *b, int c, size_t len)
-{
-	unsigned char	*tmp;
+int main() {
+	const char *someint = "-22432";
 
-	tmp = (unsigned char *)b;
-	while (len--)
-	{
-		*tmp++ = (unsigned char *)c;
-	}
-	return (b);
+	int number =  ft_atoi(someint);
+	printf("Result of ft_atoi: %d\n", number);
 }
