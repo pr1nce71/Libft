@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 13:38:42 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/15 14:15:33 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/18 14:42:46 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,10 @@ char *ft_strjoin(char const *s1, char const *s2)
 		len2++;
 	}
 	result = (char *)malloc(sizeof(char) * (len1 + len2 +1));
+	if (!result)
+	{
+		return (NULL);
+	}
 	i = 0;
 	while (i < len1)
 	{
@@ -46,4 +50,5 @@ char *ft_strjoin(char const *s1, char const *s2)
 		j++;
 	}
 	result[i + j] = '\0';
+	return (result);
 }
