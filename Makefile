@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/18 16:47:53 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/18 17:02:59 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,12 @@ SRCS	=	ft_isalnum.c \
 			ft_strjoin.c \
 			ft_substr.c \
 			ft_tolower.c \
-			ft_toupper.c
+			ft_toupper.c \
+			ft_strchr.c \
+			ft_strrchr.c \
+			ft_strstr.c \
+			ft_strncmp.c 
+			
 			
 			
 			

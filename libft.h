@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 16:52:20 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/18 17:01:54 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ size_t			ft_strlen(const char *str);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 char			ft_tolower(char c);
 char			ft_tolower(char c);
+char			ft_strchr(const char *s, int c);
+char			*strrchr(const char *s, int c);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 
