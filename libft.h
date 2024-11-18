@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 16:45:56 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/18 16:52:20 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void			ft_bzero(void *s, size_t n);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t			ft_strlen(const char *str);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
+char			ft_tolower(char c);
+char			ft_tolower(char c);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 

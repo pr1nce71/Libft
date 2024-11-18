@@ -6,8 +6,15 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:34:19 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/12 17:15:32 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/18 16:53:03 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+char	ft_tolower(char c)
+{
+	if (c >= 97 && c <= 122)
+		return (c - 32);
+	return (c);
+}
