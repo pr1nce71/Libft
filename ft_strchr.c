@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:55:47 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 17:05:17 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/19 12:03:55 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,7 @@ char	ft_strchr(const char *s, int c)
 			return ((char *)s);
 		s++;
 	}
-	
+	if (*s == (char)c)
+		return ((char *)s);
+	return (NULL);
 }
