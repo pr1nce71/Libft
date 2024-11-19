@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:56:30 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/19 12:49:12 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/19 13:37:54 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ char	*strnstr(const char *big, const char *little, size_t len)
 	while (big[i] && i < len)
 	{
 		j = 0;
-		while (big[i + j] == len[j] && [i + j] < len)
+		while (big[i + j] == little[j] && (i + j) < len)
 		{
 			if (!little[j + 1])
-				return ((char *)big[i]);
+				return ((char *)&big[i]);
 		}
 	}
 	return (NULL);

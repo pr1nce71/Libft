@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/18 17:02:59 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/19 13:46:00 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,8 +30,9 @@ SRCS	=	ft_isalnum.c \
 			ft_toupper.c \
 			ft_strchr.c \
 			ft_strrchr.c \
-			ft_strstr.c \
-			ft_strncmp.c 
+			ft_strnstr.c \
+			ft_strncmp.c \
+			
 			
 			
 			
@@ -59,33 +60,3 @@ clean:
 	$(RM) -f $(OBJS)
 
 re: fclean all
-
-
-# TARGET = libft
-
-# SRCS_DIR = src
-# OBJ_DIR = obj
-# INC_DIR = inc
-
-# SCRS = $(wildcard $(SRCS_DIR)*.c)
-# OBJ = $(patsubst $(SRCS_DIR)%.c, $(OBJ_DIR)%.o, $(SCRS))
-
-
-# $(OBJ_DIR)%.o : $(SRCS_DIR)%.c
-# 	$(CC) $(FLAGS) -I $(INC_DIR) -c $< -o $@
-
-# $(NAME) : $(OBJ)
-# 	ar rcs $(NAME) $(OBJ)
-
-# clean :
-# 	rm $(OBJ_DIR)*.o
-	
-# fclean : clean
-# 	rm -f $(NAME)
-	
-# re : fclean $(NAME)
-
-# .PHONY: all bonus clean fclean re .c.o
-
-# $(TARGET) : $(OBJ)
-# 	$(CC) $(OBJ) -o $(TARGET)
