@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/19 14:10:03 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/20 13:27:53 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,10 @@ SRCS	=	ft_isalnum.c \
 			ft_calloc.c \
 			ft_memchr.c \
 			ft_memcmp.c \
-			ft_strdup.c 
+			ft_strdup.c \
+			ft_strtrim.c \
+			ft_itoa.c \
+			
 			
 			
 			
