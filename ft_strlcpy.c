@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:35:00 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 14:36:19 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/20 10:23:13 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize)
 	i = 0;
 	src_len = 0;
 	while (src[src_len] != '\0')
-	{
 		src_len++;
-	}
 	if (dstsize > 0)
 	{
 		while (i < dstsize - 1 && src[i] != '\0')
