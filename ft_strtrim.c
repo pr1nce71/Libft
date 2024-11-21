@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:06 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 17:39:56 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 18:18:16 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(trimmed, s1 + start, (end - start) + 2);
 	return (trimmed);
 }
+
+// rm all symb from s1 which are in "set"
