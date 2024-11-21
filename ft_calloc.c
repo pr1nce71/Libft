@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 13:59:55 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/19 16:45:59 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 12:10:33 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,6 @@ void	*calloc(size_t num, size_t size)
 		return (NULL);
 	i = 0;
 	while (i < total_size)
-	{
 		((unsigned char *)ptr)[i++] = 0;
-	}
 	return (ptr);
 }
-
-// if (num && size > __SIZE_MAX__ / num)
-// 	return (NULL);

@@ -6,7 +6,22 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:09 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 11:00:10 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 12:43:48 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putstr_fd(char *s, int fd)
+{
+	size_t	i;
+
+	if (!s)
+		return ;
+	i = 0;
+	while (s[i] != '\0')
+	{
+		write(fd, &s[i], 1);
+		i++;
+	}
+}

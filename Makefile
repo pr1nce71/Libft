@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/20 13:27:53 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/21 12:55:56 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,10 +38,13 @@ SRCS	=	ft_isalnum.c \
 			ft_strdup.c \
 			ft_strtrim.c \
 			ft_itoa.c \
-			
-			
-			
-			
+			ft_putchar_fd.c \
+			ft_putendl_fd.c \
+			ft_putnbr_fd.c \
+			ft_putstr_fd.c \
+			ft_striteri.c \
+			ft_strmapi.c \
+			ft_split.c 
 			
 			
 			
