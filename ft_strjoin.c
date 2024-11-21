@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 13:38:42 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 16:44:18 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 13:59:19 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	i = 0;
 	while (*s1)
-	{
 		*result++ = *s1++;
-	}
 	while (*s2)
-	{
 		*result++ = *s2++;
-	}
 	result[i] = '\0';
 	return (result);
 }

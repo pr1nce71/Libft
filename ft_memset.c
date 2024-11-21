@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:34:38 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/13 15:43:55 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 14:00:19 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memset(void *b, int c, size_t len)
 
 	tmp = (unsigned char *)b;
 	while (len--)
-	{
 		*tmp++ = (unsigned char)c;
-	}
 	return (b);
 }

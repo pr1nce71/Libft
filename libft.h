@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 13:05:33 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 13:19:40 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ void			*ft_memchr(const void *s, int c, size_t n);
 void			*ft_memset(void *b, int c, size_t len);
 void			*calloc(size_t nmemb, size_t size);
 void			ft_putendl_fd(char *s, int fd);
+void			ft_putstr_fd(char *s, int fd);
+void			ft_putnbr_fd(int n, int fd);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_bzero(void *s, size_t n);
 size_t			ft_strlen(const char *str);

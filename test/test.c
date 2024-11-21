@@ -6,7 +6,10 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 17:18:54 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/19 17:20:58 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 17:35:40 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>

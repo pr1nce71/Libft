@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:35:08 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 10:23:50 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/21 14:00:25 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	else if (tmp_dest < tmp_src)
 	{
 		while (n--)
-		{
 			*tmp_dest++ = *tmp_src++;
-		}
 	}
 	else
 	{
