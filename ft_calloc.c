@@ -6,13 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 13:59:55 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 12:10:33 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/22 19:20:06 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*calloc(size_t num, size_t size)
+void	*ft_calloc(size_t num, size_t size)
 {
 	size_t	total_size;
 	void	*ptr;
