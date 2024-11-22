@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:18:53 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 12:10:42 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/22 18:24:59 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int	ft_atoi(const char *str)
 	while ((*str == 32) || (*str >= 9 && *str <= 13))
 		str++;
 	if (*str == '-')
-		sign *= -1;
-	else if (*str == '+')
+		sign = -1;
+	if (*str == '-' || *str == '+')
 		str++;
 	while (*str >= 48 && *str <= 57)
 	{

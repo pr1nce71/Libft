@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 13:19:40 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/22 18:25:59 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ size_t			ft_strlen(const char *str);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 char			*ft_itoa(int n);
-char			ft_tolower(char c);
-char			ft_tolower(char c);
+int				ft_tolower(int c);
+int				ft_toupper(int c);
 char			*ft_strdup(const char *s);
 char			*strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);

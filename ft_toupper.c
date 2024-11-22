@@ -6,15 +6,15 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:34:19 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/18 16:53:03 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/22 17:07:46 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	ft_tolower(char c)
+int	ft_toupper(int c)
 {
-	if (c >= 97 && c <= 122)
-		return (c - 32);
+	if (c >= 'a' && c <= 'z')
+		c = c - 32;
 	return (c);
 }
