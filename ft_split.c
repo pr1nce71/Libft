@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 12:09:28 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 17:36:06 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/25 19:56:40 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,7 +127,6 @@ char	**ft_split(char const *s, char c)
 //         free(split[i++]);
 //     free(split);
 // }
-
 // int main(void)
 // {
 //     char *test1 = "Hello, world! Welcome to 42.";
