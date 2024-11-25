@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 13:38:42 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 13:59:19 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/25 18:01:58 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*result;
-	size_t	i;
+	char	*ptr;
 	size_t	len1;
 	size_t	len2;
 
@@ -26,11 +26,35 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	result = (char *)malloc(sizeof(char) * (len1 + len2 +1));
 	if (!result)
 		return (NULL);
-	i = 0;
+	ptr = result;
 	while (*s1)
-		*result++ = *s1++;
+		*ptr++ = *s1++;
 	while (*s2)
-		*result++ = *s2++;
-	result[i] = '\0';
+		*ptr++ = *s2++;
+	*ptr = '\0';
 	return (result);
 }
+
+// #include <stdlib.h>
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	int		index;
+// 	char	**strs;
+// 	char	*separator;
+// 	char	*result;
+// 	int		size;
+
+// 	size = 3;
+// 	strs = (char **)malloc(3 * sizeof(char *));
+// 	strs[0] = (char *)malloc(sizeof(char) * 5 + 1);
+// 	strs[1] = (char *)malloc(sizeof(char) * 7 + 1);
+// 	strs[2] = (char *)malloc(sizeof(char) * 14 + 1);
+// 	strs[0] = "Hello";
+// 	strs[1] = "friend,";
+// 	strs[2] = "you are awesome";
+// 	separator = " ";
+// 	result = ft_strjoin(size, strs, separator);
+// 	printf("%s$\n", result);
+// 	free(result);
+// }

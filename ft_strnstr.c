@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:56:30 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/22 19:35:07 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/25 17:19:58 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		{
 			if (!needle[j + 1])
 				return ((char *)&haystack[i]);
+			j++;
 		}
+		i++;
 	}
 	return (NULL);
 }

@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 10:36:35 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 13:24:26 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/25 17:38:14 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,6 @@ char	*ft_itoa(int n)
 		num /= 10;
 	}
 	if (n == 0)
-		str[0] = '\0';
+		return (ft_memcpy(str, "0", 2));
 	return (str);
 }

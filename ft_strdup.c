@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 14:00:23 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 13:59:59 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/25 17:35:15 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ char	*ft_strdup(const char *s)
 	size_t	i;
 	size_t	len;
 
-	len = 0;
-	while (s[len])
-		len++;
+	len = ft_strlen(s);
 	copy = (char *)malloc(sizeof(char) * (len + 1));
 	if (!copy)
 		return (NULL);
