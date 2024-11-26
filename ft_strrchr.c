@@ -6,9 +6,12 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:56:26 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/25 18:07:02 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:10:21 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//The strrchr() function returns a pointer to the last
+//occurrence of the character c in the string s.
 
 #include "libft.h"
 

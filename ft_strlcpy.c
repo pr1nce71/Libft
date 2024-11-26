@@ -6,9 +6,12 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:35:00 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 10:23:13 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:28:45 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//The strlcpy() function copies up to size - 1 characters from the
+//NUL-terminated string src to dst, NUL-termi‐nating the result.
 
 #include "libft.h"
 

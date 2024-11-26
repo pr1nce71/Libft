@@ -6,9 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:25:24 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/22 15:47:49 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 14:26:25 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//checks for any printable character including space.
 
 #include "libft.h"
 

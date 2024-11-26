@@ -6,9 +6,11 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:56:17 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/22 17:03:31 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:34:32 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//The strncmp() function compares only the first (at most) n bytes of s1 and s2.
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 14:00:15 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 10:21:31 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 14:21:37 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//The memcmp() function compares the first n bytes 
+//(each interpreted as unsigned char) of the memory areas s1
+//and s2.
 
 #include "libft.h"
 

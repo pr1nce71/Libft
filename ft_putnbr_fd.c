@@ -6,9 +6,12 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:12 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 12:43:59 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 14:13:51 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Outputs the integer ’n’ to the given file
+// descriptor.
 
 #include "libft.h"
 

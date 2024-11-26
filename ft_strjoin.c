@@ -6,9 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 13:38:42 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/25 18:01:58 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 14:10:41 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Allocates (with malloc(3)) and returns a new
+// string, which is the result of the concatenation
+// of ’s1’ and ’s2’.
 
 #include "libft.h"
 

@@ -6,9 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:59:34 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/20 10:23:43 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 14:20:41 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//The memcpy() function copies n bytes from memory area src to memory area dest.
+//The memory areas must not
+//overlap. Use memmove(3) if the memory areas do overlap.
 
 #include "libft.h"
 

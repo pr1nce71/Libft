@@ -6,9 +6,15 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:15:54 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 14:01:31 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:40:28 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//checks  for  an alphabetic character; in the standard "C" locale
+//it is equivalent to (isupper(c) || islower(c)).
+//In some locales, there may be additional characters
+//for which isalpha()  is  true—let‐ters
+//which are neither uppercase nor lowercase.
 
 #include "libft.h"
 

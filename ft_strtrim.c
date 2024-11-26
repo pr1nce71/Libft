@@ -6,9 +6,13 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:06 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/21 18:18:16 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:39:14 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Allocates (with malloc(3)) and returns a copy of
+//’s1’ with the characters specified in ’set’ removed
+//from the beginning and the end of the string.
 
 #include "libft.h"
 
@@ -37,4 +41,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (trimmed);
 }
 
-// rm all symb from s1 which are in "set"
+//rm all symb from s1 which are in "set"
