@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:35:44 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/22 19:29:13 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/26 17:25:56 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,11 @@ char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char			*ft_strnstr(const char *big, const char *little, size_t len);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 char			*ft_strtrim(char const *s1, char const *set);
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
 
 #endif
