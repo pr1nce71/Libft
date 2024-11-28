@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 15:13:20 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/27 15:21:01 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 16:37:47 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,13 @@
 
 int	ft_lstsize(t_list *lst)
 {
-	
+	int	counter;
+
+	counter = 0;
+	while (lst)
+	{
+		lst = lst ->next;
+		counter++;
+	}
+	return (counter);
 }

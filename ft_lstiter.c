@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 16:20:15 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/27 16:22:00 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 16:12:28 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,6 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	
+	f (lst ->content);
+	lst = lst ->next;
 }
