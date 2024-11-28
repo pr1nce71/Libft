@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:35:08 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 15:41:53 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:08:27 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,23 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char src[] = "Hello, World!";
+// 	char dest[50];
+// 	ft_memmove(dest, src, 13);
+// 	printf("After ft_memmove: %s\n", dest);
+// 	ft_memmove(dest + 7, src + 7, 6);
+// 	printf("After ft_memmove: %s\n", dest);
+// 	ft_memmove(dest, src, 5);
+// 	dest[5] = '\0';
+// 	printf("After ft_memmove: %s\n", dest);
+// 	ft_memmove(dest, src + 5, 0);
+// 	printf("After ft_memmove: %s\n", dest);
+// 	ft_memmove(dest, src + 5, 7);
+// 	printf("After ft_memmove: %s\n", dest);
+// 	return (0);
+// }

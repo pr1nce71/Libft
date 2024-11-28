@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 10:36:35 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 14:11:14 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:09:03 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,3 +57,32 @@ char	*ft_itoa(int n)
 		return (ft_memcpy(str, "0", 2));
 	return (str);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	int test_vals[] = {42, -42, 0, 12345, -9876};
+// 	int i = 0;
+// 	char *result;
+// 	result = ft_itoa(test_vals[i]);
+// 	printf("ft_itoa(%d) = %s\n", test_vals[i], result);
+// 	free(result);
+// 	i++;
+// 	result = ft_itoa(test_vals[i]);
+// 	printf("ft_itoa(%d) = %s\n", test_vals[i], result);
+// 	free(result);
+// 	i++;
+// 	result = ft_itoa(test_vals[i]);
+// 	printf("ft_itoa(%d) = %s\n", test_vals[i], result);
+// 	free(result);
+// 	i++;
+// 	result = ft_itoa(test_vals[i]);
+// 	printf("ft_itoa(%d) = %s\n", test_vals[i], result);
+// 	free(result);
+// 	i++;
+// 	result = ft_itoa(test_vals[i]);
+// 	printf("ft_itoa(%d) = %s\n", test_vals[i], result);
+// 	free(result);
+// 	return (0);
+// }

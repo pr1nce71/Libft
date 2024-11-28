@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:26:54 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 15:40:17 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:09:20 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,46 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char test_chars[] = {'A', 'z', '5', '@', ' ', '9', 'b'};
+// 	int i = 0;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	i++;
+// 	if (ft_isalnum(test_chars[i]))
+// 		printf("'%c' is alphanumeric.\n", test_chars[i]);
+// 	else
+// 		printf("'%c' is not alphanumeric.\n", test_chars[i]);
+// 	return (0);
+// }

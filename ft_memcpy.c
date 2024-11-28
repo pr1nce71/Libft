@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:59:34 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 14:20:41 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:08:32 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,23 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		((char *)dest)[i] = ((char *)src)[i];
 	return (dest);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char src[] = "Hello, World!";
+// 	char dest[50];
+// 	ft_memcpy(dest, src, 13);
+// 	printf("After ft_memcpy: %s\n", dest);
+// 	ft_memcpy(dest, src + 7, 6);
+// 	printf("After ft_memcpy: %s\n", dest);
+// 	ft_memcpy(dest, src, 5);
+// 	dest[5] = '\0';
+// 	printf("After ft_memcpy: %s\n", dest);
+// 	ft_memcpy(dest, src + 7, 0);
+// 	printf("After ft_memcpy: %s\n", dest);
+// 	ft_memcpy(dest, src + 5, 7);
+// 	printf("After ft_memcpy: %s\n", dest);
+// 	return (0);
+// }

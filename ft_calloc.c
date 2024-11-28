@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 13:59:55 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 15:20:19 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 17:58:58 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,30 @@ void	*ft_calloc(size_t num, size_t size)
 		((unsigned char *)ptr)[i++] = 0;
 	return (ptr);
 }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void	*ft_calloc(size_t num, size_t size);
+
+// int	main(void)
+// {
+// 	size_t	num = 5;
+// 	size_t	size = sizeof(int);
+// 	int		*array;
+// 	size_t	i = 0;
+// 	array = (int *)ft_calloc(num, size);
+// 	if (!array)
+// 	{
+// 		printf("Memory allocation failed\n");
+// 		return (1);
+// 	}
+// 	printf("Allocated and zero-initialized array:\n");
+// 	while (i < num)
+// 	{
+// 		printf("array[%zu] = %d\n", i, array[i]);
+// 		i++;
+// 	}
+// 	free(array);
+// 	return (0);
+// }

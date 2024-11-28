@@ -6,7 +6,7 @@
 #    By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/12 16:01:33 by yevkahar          #+#    #+#              #
-#    Updated: 2024/11/28 16:39:47 by yevkahar         ###   ########.fr        #
+#    Updated: 2024/11/28 18:29:03 by yevkahar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ SRCS	=	ft_atoi.c \
 			ft_lstlast.c \
 			ft_lstsize.c
 			
-			
+
 			
 OBJS	= $(SRCS:.c=.o)
 

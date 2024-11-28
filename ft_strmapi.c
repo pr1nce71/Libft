@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:02 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 14:11:58 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:18:31 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,27 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new_str[i] = '\0';
 	return (new_str);
 }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <string.h>
+
+// int	main(void)
+// {
+// 	char *result1 = ft_strmapi("hello", upper_case);
+// 	char *result2 = ft_strmapi("world", upper_case);
+// 	char *result3 = ft_strmapi("test", upper_case);
+// 	char *result4 = ft_strmapi("example", upper_case);
+// 	char *result5 = ft_strmapi("program", upper_case);
+// 	printf("Result 1: %s\n", result1);
+// 	printf("Result 2: %s\n", result2);
+// 	printf("Result 3: %s\n", result3);
+// 	printf("Result 4: %s\n", result4);
+// 	printf("Result 5: %s\n", result5);
+// 	free(result1);
+// 	free(result2);
+// 	free(result3);
+// 	free(result4);
+// 	free(result5);
+// 	return (0);
+// }

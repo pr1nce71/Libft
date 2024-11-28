@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 14:00:15 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 14:21:37 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:08:35 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,37 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char str[] = "Hello, World!";
+// 	char *result;
+// 	result = ft_memchr(str, 'o', 13);
+// 	if (result)
+// 		printf("Found 'o' at position: %ld\n", result - str);
+// 	else
+// 		printf("'o' not found.\n");
+// 	result = ft_memchr(str, 'W', 13);
+// 	if (result)
+// 		printf("Found 'W' at position: %ld\n", result - str);
+// 	else
+// 		printf("'W' not found.\n");
+// 	result = ft_memchr(str, 'z', 13);
+// 	if (result)
+// 		printf("Found 'z' at position: %ld\n", result - str);
+// 	else
+// 		printf("'z' not found.\n");
+// 	result = ft_memchr(str, 'H', 13);
+// 	if (result)
+// 		printf("Found 'H' at position: %ld\n", result - str);
+// 	else
+// 		printf("'H' not found.\n");
+// 	result = ft_memchr(str, ',', 13);
+// 	if (result)
+// 		printf("Found ',' at position: %ld\n", result - str);
+// 	else
+// 		printf("',' not found.\n");
+// 	return (0);
+// }

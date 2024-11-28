@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 16:56:30 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 16:24:01 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:20:41 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,16 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int	main(void)
+// {
+// 	printf("Result 1: %s\n", ft_strnstr("Hello World", "World", 11));
+// 	printf("Result 2: %s\n", ft_strnstr("abcdef", "cd", 6));
+// 	printf("Result 3: %s\n", ft_strnstr("abcdef", "xy", 6));
+// 	printf("Result 4: %s\n", ft_strnstr("Example String", "Str", 10));
+// 	printf("Result 5: %s\n", ft_strnstr("Test string", "Test", 4));
+// 	return (0);
+// }

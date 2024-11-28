@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 11:00:06 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/26 15:39:14 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:30:44 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,17 @@ char	*ft_strtrim(char const *s1, char const *set)
 }
 
 //rm all symb from s1 which are in "set"
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <stdlib.h>
+
+// int	main(void)
+// {
+// 	printf("Result 1: '%s'\n", ft_strtrim("  Hello World  ", " "));
+// 	printf("Result 2: '%s'\n", ft_strtrim("****Test****", "*"));
+// 	printf("Result 3: '%s'\n", ft_strtrim("Example", "E"));
+// 	printf("Result 4: '%s'\n", ft_strtrim("12345", "12345"));
+// 	printf("Result 5: '%s'\n", ft_strtrim("abcdef", "xyz"));
+// 	return (0);
+// }

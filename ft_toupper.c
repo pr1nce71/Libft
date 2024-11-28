@@ -6,7 +6,7 @@
 /*   By: yevkahar <yevkahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:34:19 by yevkahar          #+#    #+#             */
-/*   Updated: 2024/11/22 17:07:46 by yevkahar         ###   ########.fr       */
+/*   Updated: 2024/11/28 18:28:04 by yevkahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	printf("Result 1: %c\n", ft_toupper('a'));
+// 	printf("Result 2: %c\n", ft_toupper('z'));
+
+// 	return (0);
+// }
